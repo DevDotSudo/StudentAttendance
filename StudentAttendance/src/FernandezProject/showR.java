@@ -27,95 +27,94 @@ public class showR extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        mondayBtn = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
         tuesdayBtn = new javax.swing.JButton();
+        mondayBtn = new javax.swing.JButton();
         wednesdayBtn = new javax.swing.JButton();
         thursdayBtn = new javax.swing.JButton();
         fridayBtn = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        mondayBtn.setText("Monday");
-        mondayBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mondayBtnActionPerformed(evt);
-            }
-        });
+        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        tuesdayBtn.setBackground(new java.awt.Color(102, 102, 102));
+        tuesdayBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        tuesdayBtn.setForeground(new java.awt.Color(255, 255, 255));
         tuesdayBtn.setText("Tuesday");
         tuesdayBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tuesdayBtnActionPerformed(evt);
             }
         });
+        jPanel1.add(tuesdayBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 100, 140, 110));
 
+        mondayBtn.setBackground(new java.awt.Color(102, 102, 102));
+        mondayBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        mondayBtn.setForeground(new java.awt.Color(255, 255, 255));
+        mondayBtn.setText("Monday");
+        mondayBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mondayBtnActionPerformed(evt);
+            }
+        });
+        jPanel1.add(mondayBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 140, 90));
+
+        wednesdayBtn.setBackground(new java.awt.Color(102, 102, 102));
+        wednesdayBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        wednesdayBtn.setForeground(new java.awt.Color(255, 255, 255));
         wednesdayBtn.setText("Wednesday");
         wednesdayBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 wednesdayBtnActionPerformed(evt);
             }
         });
+        jPanel1.add(wednesdayBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 30, 130, 90));
 
+        thursdayBtn.setBackground(new java.awt.Color(102, 102, 102));
+        thursdayBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        thursdayBtn.setForeground(new java.awt.Color(255, 255, 255));
         thursdayBtn.setText("Thursday");
         thursdayBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 thursdayBtnActionPerformed(evt);
             }
         });
+        jPanel1.add(thursdayBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 140, 80));
 
+        fridayBtn.setBackground(new java.awt.Color(102, 102, 102));
+        fridayBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        fridayBtn.setForeground(new java.awt.Color(255, 255, 255));
         fridayBtn.setText("Friday");
         fridayBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fridayBtnActionPerformed(evt);
             }
         });
+        jPanel1.add(fridayBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 130, 80));
 
-        jButton1.setText("Back");
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("< Back");
+        jButton1.setBorder(null);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 240, 80, 30));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 510, 30));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(mondayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(thursdayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(70, 70, 70)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(fridayBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(tuesdayBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 95, Short.MAX_VALUE))
-                        .addGap(55, 55, 55)
-                        .addComponent(wednesdayBtn)))
-                .addContainerGap(47, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jButton1)
-                .addGap(58, 58, 58)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(mondayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tuesdayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(wednesdayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(35, 35, 35)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(fridayBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
-                    .addComponent(thursdayBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(77, Short.MAX_VALUE))
-        );
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 511, 290));
 
-        pack();
+        setSize(new java.awt.Dimension(511, 291));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void mondayBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mondayBtnActionPerformed
@@ -154,44 +153,11 @@ public class showR extends javax.swing.JFrame {
         show.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(showR.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(showR.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(showR.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(showR.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new showR().setVisible(true);
-            }
-        });
-    }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton fridayBtn;
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JButton mondayBtn;
     private javax.swing.JButton thursdayBtn;
     private javax.swing.JButton tuesdayBtn;
